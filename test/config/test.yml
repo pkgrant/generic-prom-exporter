@@ -1,0 +1,14 @@
+# Test file: a host will have different configured values for key points
+# This file contains those values and will send them to Prometheus
+
+targets:
+  - host: machine1
+    firstvalue: 1
+    secondvalue: 2
+    thirdvalue: 3
+    fourthvalue: 4
+  - host: machine2
+    firstvalue: 5
+    secondvalue: 6
+    thirdvalue: 7
+    fourthvalue: 8
